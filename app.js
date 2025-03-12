@@ -130,6 +130,36 @@ console.log(userProfile);
 
 { username: 'JohnDoe' }
 
+// ! Exercise 7:
+// Exercise 7 had a series of tasks that i completed and the console output for eveidence is below:
+
+/*
+➜  modern-javascript-syntax-lab git:(main) node importingFile.js
+Matt
+➜  modern-javascript-syntax-lab git:(main) ✗ node importingFile.js
+Matt MacBook Pro 43 programmer 
+*/
+
+// ! Exercise 8:
+// a. Create a function with two parameters, `noun` and `adjective`.
+// 
+// b. Give `noun` a default value of "cat" and `adjective` a default value of 
+//    "orange".
+//
+// c. The function should log a sentence 'The cat is orange.' by default, but 
+//    should substitute the appropriate parameters when it is supplied with 
+//    arguments.
+//
+// Your code here:
+
+
+function description(noun="cat", adjective="orange") {
+    console.log(`The ${noun} is ${adjective}.`);
+}
+console.log(description()); // Logs: The cat is orange.
+console.log(description("dog", "brown")); // Logs: The dog is brown.
+
+
 // ! Exercise 9:
 // a. Convert the following `if...else` statement into a ternary:
 //
