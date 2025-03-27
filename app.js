@@ -236,5 +236,4 @@ const adventurer = {
   };
   
   // Your code here:
-const catAge = adventurer.catAge || undefined;
-console.log(catAge);  
+  console.log(adventurer?.cat?.age);
